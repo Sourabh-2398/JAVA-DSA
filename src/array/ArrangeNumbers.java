@@ -36,9 +36,9 @@ public class ArrangeNumbers {
 
 	public static void main(String args[]) {
 
-		int t,n,x;
+		int t,n;
 
-		Scanner scanner=new Scanner(System.in);	
+		Scanner scanner = new Scanner(System.in);	
 		t=scanner.nextInt();
 		if(1 <= t && t <= Math.pow(10, 2)) {
 			int i=0;
@@ -57,6 +57,7 @@ public class ArrangeNumbers {
 				display(arr);
 			}
 		}
+		scanner.close();
 		
 
 		
