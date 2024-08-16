@@ -21,10 +21,7 @@ public class ArrangeNumbers {
         			dcr-=2;
         		}
         	}
-
-
     	}
-
     }
 	
 	public static void display(int[] arr) {
@@ -57,9 +54,6 @@ public class ArrangeNumbers {
 				display(arr);
 			}
 		}
-		scanner.close();
-		
-
-		
+		scanner.close();	
 	}
 }
