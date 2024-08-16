@@ -99,9 +99,7 @@ public class ArrayIntersection {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-
 		int t,n,m;
 
 		Scanner scanner=new Scanner(System.in);	
@@ -120,7 +118,6 @@ public class ArrayIntersection {
 			}
 
 		}
-
-	}
-
+      scanner.close();
+      }
 }
