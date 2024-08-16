@@ -27,12 +27,13 @@ public class FindUnique  {
 		for(int i=0;i<n;i++) {
 			arr[i]=scanner.nextInt();
 		}
+		scanner.close();
 		return arr;
 	}
 
 	public static void main(String args[]) {
 
-		int t,n,x;
+		int t,n;
 
 		Scanner scanner=new Scanner(System.in);	
 		t=scanner.nextInt();
@@ -46,9 +47,8 @@ public class FindUnique  {
 				}
 				i++;
 			}
-
-
 		}
+		scanner.close();
 	}
 
 }
